@@ -7,9 +7,12 @@
 - - sjd [Theory Docker #1] dsdsd
 - See issue "Theory Docker #1" for more information.
 
-- [#1] 
-- (#1)
-- [1]
+- New [#1] dsds 
+- 2323 (#1)dd
+- 2323 [1] 3333
+- #Theory-Docker-1 dsdsdsd
+- ơ
+
 - [Theory Docker] sdsdsdsds
 - [#1]
 5. Key Docker Command
