@@ -1,5 +1,7 @@
 ## Basic Docker
 - Theory About Docker: [#1]
+- See [#1] for more information.
+
 5. Key Docker Command
 - `docker build . `: Build a Dockerfile and create your own Image based on the file
     - `-t NAME:TAG` : Assign a NAME and a TAG to an image
