@@ -1,5 +1,5 @@
 ## Basic Docker
-- Theory About Docker: [1]: https://github.com/NewTechnology123/Docker/issues/1
+- Theory About Docker: https://github.com/NewTechnology123/Docker/issues/1
 5. Key Docker Command
 - `docker build . `: Build a Dockerfile and create your own Image based on the file
     - `-t NAME:TAG` : Assign a NAME and a TAG to an image
