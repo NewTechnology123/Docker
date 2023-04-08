@@ -2,8 +2,9 @@
 - Theory About Docker: [#1]
 - #issue-1
 
-- See issue #1 for more information.
+- See issue (#1) for more information.
 - sjd [Theory Docker] dsdsd
+- - sjd [Theory Docker #1] dsdsd
 
 - [#1] 
 - (#1)
