@@ -1,17 +1,5 @@
 ## Basic Docker
-1. What is Docker?
-- Docker is a technology: A tool for creating and managing containers
-2. Why?
-- We want to have to the exact same environment for development and production
-- It should easy to share a common development environment
-3. What is image in Docker?
-- Build container into something. It is Image.
-- Images do not run themselves, instead, they can be executed as containers.
-4. Docker Tools and building blocks
-- Docker Engine: vscode
-- DockerDesktop: setup extension, auto clean up code
-- DockerHub:  is a public Docker image repository where Docker users can search, share and download 
-- DockerCompose: is a tool that allows you to build, run and manage multiple containers at once on a single computer or Docker Swarm environment
+- Theory About Docker: #1
 5. Key Docker Command
 - `docker build . `: Build a Dockerfile and create your own Image based on the file
     - `-t NAME:TAG` : Assign a NAME and a TAG to an image
