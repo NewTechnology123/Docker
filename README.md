@@ -1,21 +1,5 @@
 ## Basic Docker
-- Theory About Docker: [#1]
-- [#1](../../issues/1)
-- [Chao ](https://github.com/NewTechnology123/Docker/issues/1)
-
-- See issue (#1) for more information.
-- sjd [Theory Docker] dsdsd
-- - sjd [Theory Docker #1] dsdsd
-- See issue "Theory Docker #1" for more information.
-
-- New [#1] dsds 
-- 2323 (#1)dd
-- 2323 [1] 3333
-- #Theory-Docker-1 dsdsdsd
-- ơ
-
-- [Theory Docker] sdsdsdsds
-- [#1]
+- Theory About Docker: [Theory](https://github.com/NewTechnology123/Docker/issues/1)
 5. Key Docker Command
 - `docker build . `: Build a Dockerfile and create your own Image based on the file
     - `-t NAME:TAG` : Assign a NAME and a TAG to an image
