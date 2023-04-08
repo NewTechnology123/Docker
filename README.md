@@ -5,6 +5,7 @@
 - See issue (#1) for more information.
 - sjd [Theory Docker] dsdsd
 - - sjd [Theory Docker #1] dsdsd
+- See issue "Theory Docker #1" for more information.
 
 - [#1] 
 - (#1)
