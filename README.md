@@ -1,7 +1,7 @@
 ## Basic Docker
 - Theory About Docker: [#1]
 - [#1](../../issues/1)
-- [Chao ](../../issues/1)
+- [Chao ](https://github.com/NewTechnology123/Docker/issues/1)
 
 - See issue (#1) for more information.
 - sjd [Theory Docker] dsdsd
