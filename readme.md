@@ -1,5 +1,6 @@
 ## Notes
 - Containers & Network Request: [View](https://github.com/NewTechnology123/Docker/issues/8)
+- Summary Networking (Cross-)Container Communication: [View](https://github.com/NewTechnology123/Docker/issues/9)
 ## Description
 - Run on nodejs with network to practice **Docker**
 ## Command
@@ -20,4 +21,3 @@
     - To run: ```docker run --name favorites --network favorites-net -d --rm -p 3000:3000 favorites-node```
     
 
-đính kèm thêm hình ảnh
