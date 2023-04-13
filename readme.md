@@ -11,7 +11,7 @@
     - Challenge 4: Connect from Nodejs Docker to MongoDB Docker. (View **all** below. Create a network **goals-net**, public and run it.`mongodb://mongodb:27017/course-goals`)
 
 ## Command
-- To build and start mongoDB: `docker run --name mongodb --rm -d -p 27017:27017 mongo` 
+- To build and start mongoDB: `docker run --name mongodb --rm -d -p 27017:27017 mongo`  (This step need get **IDAddress** of mongoDB  by logs)
 - Backend:
     - Build image: `docker build -t goals-node .`
     - Build container: `docker run --name goals-backend --rm goals-node` (It's okey. But it not yet connect **frontend** local ). You can try below
