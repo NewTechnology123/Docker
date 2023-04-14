@@ -17,9 +17,9 @@
 
 - Build in docker-compose:
     - Case 1:
-        - ```build: ./backend```
+        - `build: ./backend`
     - Case 2:
-        - ```
+        ```
           build: 
             context: ./backend
             dockerfile: Dockerfile
