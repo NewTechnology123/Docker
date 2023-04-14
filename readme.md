@@ -31,6 +31,7 @@
     - `stdin_open: true`: = `-i` That this service needs an open input connection
     - `tty: true`: = `-t`  Show result output on terminal
     - Notes: You can read more command docker [here](https://github.com/NewTechnology123/Docker/issues/3)   
+    - `restart: always` It's restart even when turn off, error, stop.
    
 
 ## Description
