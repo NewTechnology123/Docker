@@ -44,7 +44,8 @@
         ```
     - Nodejs: 
         ```
-        docker run --name goals-backend -v D:/learn_docker/backend:/app -v logs:/app/logs -v /app/node_modules --rm -d --network goals-net -p 80:80 goals-node
+        docker run --name goals-backend -v D:/learn_docker/backend:/app -v logs:/app/logs 
+        -v /app/node_modules --rm -d --network goals-net -p 80:80 goals-node
         ``` 
     - Reactjs: 
         ```
