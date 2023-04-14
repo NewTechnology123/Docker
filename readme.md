@@ -21,36 +21,36 @@
     ```
     mongodb://host.docker.internal:27017/swfavorites
     ``` 
-    - All on Docker (Connect to docker and mongoDB Docker by IDAddress):
-        - To build: 
-            ```
-            Docker run -d --name mongodb mongo
-            ```
-        - Get struct by command to get **IDAddress** (172.17.0.3)  
-            ```
-            docker container inspect mongodb
-            ``` 
-        - Link: 
-            ```
-            mongodb://172.17.0.3:27017/swfavorites
-            ```
-
-- Creating container networks (standard => share all container): [read](https://github.com/NewTechnology123/Docker/issues/7)
-    - To create network: 
-        ```
-        docker network create favorites-net
-        ```
-    - To build: 
-        ```
-        docker run -d --name mongodb --network favorites-net mongo
-        ```
-    - Link: 
-        ```
-        mongodb://172.17.0.3:27017/swfavorites
-        ```
-    - To run: 
-        ```
-        docker run --name favorites --network favorites-net -d --rm -p 3000:3000 favorites-node
-        ```
+    - All public on Docker have 2 aways:
+        1. Connect to docker and mongoDB Docker by IDAddress
+            - To build: 
+                ```
+                Docker run -d --name mongodb mongo
+                ```
+            - Get struct by command to get **IDAddress** (172.17.0.3)  
+                ```
+                docker container inspect mongodb
+                ``` 
+            - Link: 
+                ```
+                mongodb://172.17.0.3:27017/swfavorites
+                ```
+        2. Using network  [can read](https://github.com/NewTechnology123/Docker/issues/7)
+            - To create network: 
+                ```
+                docker network create favorites-net
+                ```
+            - To build: 
+                ```
+                docker run -d --name mongodb --network favorites-net mongo
+                ```
+            - Link: 
+                ```
+                mongodb://172.17.0.3:27017/swfavorites
+                ```
+            - To run: 
+                ```
+                docker run --name favorites --network favorites-net -d --rm -p 3000:3000 favorites-node
+                 ```
     
 
