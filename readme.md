@@ -28,10 +28,10 @@
     ```
     docker run -p 3000:80 -d --rm --name feedback-app -v feedback:/app/feedback -v "D:/learn_docker:/app:ro" -v /app/node_modules --rm feedback-node:volumes
     ``` 
-        - `-v feedback:/app/feedback`: This option creates a named volume named "feedback" and mounts it to the directory /app/feedback inside the container
-        - `-v "D:/learn_docker:/app"`: This option mounts the host directory D:/learn_docker to the directory /app inside the container
-        - `:ro`: Is setup volume is read only. Setup local to avoid override
-        - `-v /app/node_modules`: This option mounts an **anonymous volume** to the directory /app/node_modules inside the container (In the case, this command is not exits then error. Vì "RUN NPM INSTALL" sẽ tải xuống trong `/app/node_modules` của Docker container. Khi gắn `-v` để kết nối giữa host và container thì các thư mục trong container sẽ được ghi đè bởi các thư muc trên host. Nên nếu không có  -v /app/node_modules, thư mục /app/node_modules trong container sẽ bị ghi đè bởi thư mục trên host và các phụ thuộc đã được cài đặt sẽ bị xóa. (Nếu đã tồn tại thì host rồi bỏ qua) ) 
+    - `-v feedback:/app/feedback`: This option creates a named volume named "feedback" and mounts it to the directory /app/feedback inside the container
+    - `-v "D:/learn_docker:/app"`: This option mounts the host directory D:/learn_docker to the directory /app inside the container
+    - `:ro`: Is setup volume is read only. Setup local to avoid override
+    - `-v /app/node_modules`: This option mounts an **anonymous volume** to the directory /app/node_modules inside the container (In the case, this command is not exits then error. Vì "RUN NPM INSTALL" sẽ tải xuống trong `/app/node_modules` của Docker container. Khi gắn `-v` để kết nối giữa host và container thì các thư mục trong container sẽ được ghi đè bởi các thư muc trên host. Nên nếu không có  -v /app/node_modules, thư mục /app/node_modules trong container sẽ bị ghi đè bởi thư mục trên host và các phụ thuộc đã được cài đặt sẽ bị xóa. (Nếu đã tồn tại thì host rồi bỏ qua) ) 
 > 3. Nodemon
 - Nodemon: To view log for docker is better, realtime.
 - Volumes & Bind Mounts: [read](https://github.com/NewTechnology123/Docker/issues/5)
