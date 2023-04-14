@@ -38,7 +38,16 @@
 
 ## Command
 - Command convert to docker-compose.yaml:
-    - MongoDB: `docker run --name mongodb --rm -d -v data:/data/db --network goals-net mongo `
-    - Nodejs: `docker run --name goals-backend -v D:/learn_docker/backend:/app -v logs:/app/logs -v /app/node_modules --rm -d --network goals-net -p 80:80 goals-node` 
-    - Reactjs: `docker run -v D:/learn_docker/frontend/src:/app/src --name goals-frontend --rm -p:3000:3000 -d -it goals-react`
+    - MongoDB: 
+        ```
+        docker run --name mongodb --rm -d -v data:/data/db --network goals-net mongo 
+        ```
+    - Nodejs: 
+        ```
+        docker run --name goals-backend -v D:/learn_docker/backend:/app -v logs:/app/logs -v /app/node_modules --rm -d --network goals-net -p 80:80 goals-node
+        ``` 
+    - Reactjs: 
+        ```
+        docker run -v D:/learn_docker/frontend/src:/app/src --name goals-frontend --rm -p:3000:3000 -d -it goals-react
+        ```
 
