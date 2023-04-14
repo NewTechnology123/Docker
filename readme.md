@@ -33,7 +33,7 @@
         ```
         docker run --name goals-backend --rm goals-node`
         ```   
-    - (`-p` This allows access the container's services (e.g., a web server) using your web browser or another client. Expose the relevant port(s) to the host machine.) -> Connect (Container nodejs) to reactjs
+    - `-p` This allows access the container's services (e.g., a web server) using your web browser or another client. Expose the relevant port(s) to the host machine. -> Connect (Container nodejs) to reactjs
         ```
         docker run --name goals-backend --rm -d -p 80:80 goals-node
         ```
